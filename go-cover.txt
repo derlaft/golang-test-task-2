@@ -1,0 +1,5 @@
+?   	configstore	[no test files]
+?   	configstore/db	[no test files]
+?   	configstore/mocks	[no test files]
+ok  	configstore/models	0.033s	coverage: 100.0% of statements
+ok  	configstore/views	0.003s	coverage: 100.0% of statements
