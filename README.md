@@ -23,6 +23,9 @@
     1) В go неудобно работать с динамическими структурами. Написание на python убрало бы кучу лишнего кода.
 
 ```
+ % curl localhost:8078/get_config -d '{"type": "Develop.mr_robot", "data": "YHySKtEhYm"}'
+{"Data":"YHySKtEhYm","Host":"WKyh","Port":46836,"Database":"vkNMTN","User":"zmPBh","Password":"teBuZLhZ","Schema":"YUEZgVvd"}
+
 ```
 
 
