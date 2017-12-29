@@ -3,12 +3,13 @@
 
 ## Сборка и запуск
 
-1. Установить [gb](https://getgb.io/)
+1. Установить [gb](https://getgb.io/) и [docker-compose](https://docs.docker.com/compose/)
 1. Восстановить зависимости: `gb vendor restore`
 1. Изменить кофигурацию (src/configstore/main.go)
 1. Собрать проект: `gb build`
 1. Опционально перегенерировать файлы (нужен gomock в $PATH): `gb generate`
 1. Запустить тесты: `gb test -v`
+1. Запустить базу данных: `docker-compose up -d`
 1. Запустить миграции: `./bin/configstore migrate`
 1. Запустить сервер: `./bin/configstore run`
 
